@@ -32,6 +32,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64145BFB27959A6400A9A7AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64145BFC27959A7200A9A7AD /* View model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View model";
+			sourceTree = "<group>";
+		};
+		64145BFD27959A8F00A9A7AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64A08AB32792035F0025A591 /* Assets.xcassets */,
+				64A08AB12792035E0025A591 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		64A08AA32792035D0025A591 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +74,10 @@
 		64A08AAE2792035E0025A591 /* HQ challenge */ = {
 			isa = PBXGroup;
 			children = (
+				64145BFD27959A8F00A9A7AD /* View */,
+				64145BFC27959A7200A9A7AD /* View model */,
+				64145BFB27959A6400A9A7AD /* Model */,
 				64A08AAF2792035E0025A591 /* HQ_challengeApp.swift */,
-				64A08AB12792035E0025A591 /* ContentView.swift */,
-				64A08AB32792035F0025A591 /* Assets.xcassets */,
 				64A08AB52792035F0025A591 /* Preview Content */,
 			);
 			path = "HQ challenge";
